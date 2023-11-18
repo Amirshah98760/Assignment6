@@ -1,0 +1,210 @@
+/* Font-Family   */
+/* body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2 {
+    font-family: Arial, Verdana, sans-serif;
+}
+    .credits {
+    font-family: "Courier New", Courier, 
+    monospace;
+} */
+
+/* FONT SIZE  PROPERTY IN CSS  */
+
+
+/* PIXELS  */
+/* p{
+    font-size: 32px ;
+} */
+
+
+/* PERCENTAGE  */
+
+/* p{
+    font-size: 500%;
+} */
+
+/* DEFAULT VALUES */
+/* p{
+    font-size:larger;
+} */
+
+/* EM  */
+/* p{
+    font-size: 2em;
+} */
+
+/* FONT-FACE */
+
+/* @font-face {
+    font-family:'test';
+    src: url('./fonts/Montserrat-VariableFont_wght');
+}
+
+p{
+font-family:test;
+} */
+
+/* FONT-WEIGHT  */
+
+/* p{
+    font-weight: bolder;
+} */
+
+/* p{
+    font-weight: 300;
+} */
+
+/* FONT-STYLE */
+/* USING ID SELECTOR AND COMPARING 3 STYLES  */
+/* #normal{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+/* TEXT TRANSFORM PROPERTY IN CSS  */
+/* .transform{
+    text-transform: capitalize;
+} */
+/* .transform{
+    text-transform: uppercase;
+} */
+/* .transform{
+    text-transform: lowercase;
+} */
+
+/* TEXT-DECORATION  */
+
+/* h1{
+    text-decoration: underline;
+} */
+/* h1{
+    text-decoration:overline;
+/* } 
+/* h1{
+    text-decoration: line-through;
+}  */
+
+/* LINE HEIGHT PROPERTY IN CSS  */
+/* p{
+    line-height: 30px;
+} */
+
+/* LETTER SPACING AND WORD SPACING PROPERTY IN CSS  */
+/* p{
+    letter-spacing: 2px;
+} */
+
+/* p{
+    word-spacing: 8px;
+} */
+/* TEXT-ALIGH PROPERTY IN CSS  */
+/* BY DEFAULT THE TEXT ALIGNMENT IS LEFT  */
+/* CENTER  */
+/* h1{
+    color: red;
+    text-align: center;
+} */
+/* RIGHT ALIGN */
+/* h1{
+    text-align: right;
+} */
+/* JUSTIFY */
+/* p{
+    text-align: justify;
+} */
+
+/* VERTICAL ALIGNMENT PROPERTY IN CSS */
+/* /* img{
+    vertical-align: text-top;
+} */
+/* img{
+    vertical-align: middle;
+} */
+
+/* TEXT INDENT  */
+/* p{
+    text-indent: 125px;
+    margin-top: -20px;
+} */
+
+/* TEXT SHADOW  */
+/* h1
+{
+    text-shadow: 1px 1px 0px red;
+} */
+
+/* FIRST LETTER  */
+/* p::first-letter{
+    font-size: 50px;
+    color: red;
+    
+} */
+/* 
+
+/* PSUEDO SELECTOR LINK VISITED  */
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+} */
+/* Responding to Users */
+/* HOVER */
+/* .btn:hover{
+ background-color:black;
+ color: white ;
+ cursor: pointer;
+ border-radius: 5px;
+ padding: 2px 10px;
+ outline: white ;
+} */
+
+/* :ACTIVE  */
+/* .btn:active{
+    color: blueviolet;
+    text-decoration: underline;
+} */
+
+/* FOCUS  */
+/* .input:focus{
+    background-color: black;
+    color: white ;
+} */
+
+/* ATTRIBUTE SELECTOR IN CSS  */
+/* Existance  */
+/* h1[class]{
+    color: red;
+} */
+
+/* EQUALITY  */
+/* h1[class="bye"]{
+    color: green;
+} */
+
+/* Space */
+ /* h1[class~="are"]{
+    color: green;
+}  */
+
+/* PREFIX  */
+/* h1[class^="h"]{
+    color:blue;
+} */
+
+/* SubString */
+/* h1[class*="el"]{
+    color: greenyellow;
+} */
+
+/* Suffix */
+h1[class$="l"]{
+    color: aqua;
+}
